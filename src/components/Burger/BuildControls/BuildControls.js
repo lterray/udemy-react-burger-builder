@@ -1,7 +1,6 @@
 import React from 'react';
 import BuildControl from './BuildControl/BuildControl'
-import classes from './BuildControls.module.css'
-import PropTypes from 'prop-types';
+import classes from './BuildControls.module.css';
 
 const controls = [
   { label: 'Salad', type: 'salad' },

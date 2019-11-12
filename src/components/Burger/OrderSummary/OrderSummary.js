@@ -25,7 +25,7 @@ const orderSummary = (props) => {
 };
 
 const areEqual = (prevProps, nextProps) => {
-  return prevProps.purchasingModalShown != nextProps.purchasingModalShown;
+  return prevProps.purchasingModalShown !== nextProps.purchasingModalShown;
 }
 
 export default React.memo(orderSummary, areEqual);
